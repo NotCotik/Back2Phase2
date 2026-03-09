@@ -1,12 +1,16 @@
 # Back2Phase2
 
+Since you are moving away from GitHub for the large Phase 2 files, we should update the README to be more general about the "Direct Download" source. This makes it look professional regardless of whether you use Google Drive, Archive.org, or a private server.
+
+I have updated the README to reflect the Python-based architecture and the Direct Download method.
+
 B2P2: Back2Phase2 Launcher
 B2P2 is a specialized version-management utility for Project: Playtime, developed entirely in Python. It allows users to download, manage, and switch between Phase 2 (Incineration) and Phase 3 (Destroy-a-Toy) using high-speed direct downloads.
 
 Key Features
 Python-Powered Logic: Built with Python for efficient file handling and system-level automation.
 
-Direct Install: Downloads the Phase 2 archive directly to your system, bypassing complex setup processes.
+Direct Download Integration: Fetches Phase 2 assets directly from high-capacity storage servers to ensure a smooth setup.
 
 Visual Progress Bar: Real-time tracking of download progress and completion percentages within the terminal.
 
@@ -27,42 +31,42 @@ Project: Playtime (Steam): The game must already be installed in your Steam libr
 
 Installation
 For Users (EXE)
-Download B2P2.exe from the official source.
+Download the B2P2.exe executable.
 
-Place the EXE in its own folder (e.g., C:\B2P2).
+Place the EXE in its own dedicated folder (e.g., C:\B2P2).
 
-Right-click and select Run as Administrator.
+Right-click the file and select Run as Administrator.
 
-Select "Install Phase 2 Files" to begin the download.
+Select "Install Phase 2 Files" to begin the automated download and extraction.
 
 For Developers (Python Source)
-To run the script from source, ensure you have Python 3.x installed and the following libraries:
+To run the script from source, ensure you have Python 3.x installed along with the following libraries:
 
 Bash
 pip install requests keyboard colorama
-Run the script:
+Run the script using:
 
 Bash
 python main.py
 Instructions
-Navigation: Use the UP and DOWN arrows to move the highlight.
+Navigation: Use the UP and DOWN arrow keys to move the highlight in the menu.
 
-Selection: Press ENTER to confirm.
+Selection: Press ENTER to confirm your selection.
 
 The Swap Process:
 
-Switch to Phase 2: Renames "Poppy Playtime - Multiplayer" to "..._Phase 3" and activates your downloaded Phase 2 folder.
+Switch to Phase 2: Renames the "Poppy Playtime - Multiplayer" folder to "..._Phase 3" and activates your Phase 2 folder.
 
 Switch to Phase 3: Reverts the folders back to the standard Steam version.
 
-Auto-Launch: Once the swap is complete, B2P2 will automatically trigger Steam to launch the game.
+Auto-Launch: Once the swap is successfully completed, B2P2 will automatically trigger Steam to launch the game.
 
 Troubleshooting
-Permission Denied: You must run the program as Administrator. Windows protects the Steam folder from unauthorized changes.
+Permission Denied: You must run the program as Administrator. Windows security prevents unauthorized scripts from modifying the Steam directory.
 
-Download Stuck: Ensure you have enough disk space (at least 15GB free for the compressed archive and the extracted folder).
+Download Interruptions: Ensure you have at least 15GB of free disk space to accommodate both the compressed archive and the extracted game files.
 
-Game Won't Start: If Steam reports missing files, use B2P2 to switch back to Phase 3 and "Verify Integrity of Game Files" within Steam, then attempt the swap again.
+Game Verification: If Steam reports missing files after a swap, use B2P2 to switch back to Phase 3 and use the "Verify Integrity of Game Files" feature within Steam before attempting the swap again.
 
 Credits
 Lead Developer: NotCotik
