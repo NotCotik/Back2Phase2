@@ -1,9 +1,5 @@
 # Back2Phase2
 
-Since you are moving away from GitHub for the large Phase 2 files, we should update the README to be more general about the "Direct Download" source. This makes it look professional regardless of whether you use Google Drive, Archive.org, or a private server.
-
-I have updated the README to reflect the Python-based architecture and the Direct Download method.
-
 B2P2: Back2Phase2 Launcher
 B2P2 is a specialized version-management utility for Project: Playtime, developed entirely in Python. It allows users to download, manage, and switch between Phase 2 (Incineration) and Phase 3 (Destroy-a-Toy) using high-speed direct downloads.
 
